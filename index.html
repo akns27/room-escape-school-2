@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>1-2반 노트북 충전함 비밀번호</h1>
+    <h1>학교 자물쇠</h1>
     <input type="text" id="answerInput" placeholder="6자리 숫자 입력(띄어쓰기 하지 마세요)">
     <button id = "nextbtn" onclick="checkAnswer()">확인</button>
     
@@ -17,12 +17,12 @@
     <script>
         function checkAnswer() {
             const userAnswer = document.getElementById("answerInput").value;
-            const correctAnswer = "411021"; // 여기에 올바른 답을 입력하세요
+            const correctAnswer = "9497"; // 여기에 올바른 답을 입력하세요
 
             const resultDiv = document.getElementById("result");
 
             if (userAnswer === correctAnswer) {
-                resultDiv.innerHTML = "정답입니다!<br> @school_bssm_k 계정으로 이동하세요";
+                resultDiv.innerHTML = "정답입니다!<br> @parkwonkangsphonek 계정으로 이동하세요";
                 resultDiv.style.color = "#5AB0FF";
             } else {
                 resultDiv.innerHTML = "틀렸습니다.";
